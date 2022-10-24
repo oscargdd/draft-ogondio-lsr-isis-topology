@@ -15,14 +15,13 @@ v: 3
 
 author:
   -
-    name: Oscar González de Dios
+    fullname: Oscar González de Dios
     org: Telefonica
     email: oscar.gonzalezdedios@telefonica.com
   -
-    name: Samier Barguil Giraldo
-    org: Telefonica
+    fullname: Samier Barguil
+    organization: Telefonica
     email: samier.barguilgiraldo.ext@telefonica.com
-
   -
     name: Victor Lopez
     org: Nokia
