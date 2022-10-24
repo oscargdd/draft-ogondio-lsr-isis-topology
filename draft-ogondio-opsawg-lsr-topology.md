@@ -203,7 +203,7 @@ module ietf-l3-isis-topology {
       "Initial version";
     reference
       "RFC XXXX: A YANG Data Model for Intermediate System to
-       Intermediate System (ISIS) Topology"; 
+       Intermediate System (ISIS) Topology";
   }
 
   grouping isis-topology-type {
@@ -256,7 +256,7 @@ module ietf-l3-isis-topology {
 
       leaf system-id {
         type ietf-isis:system-id;
-        description 
+        description
           "System-id of the node.";
       }
 
@@ -331,7 +331,7 @@ module ietf-l3-isis-topology {
         "Augmentation parameters apply only for networks with
         ISIS topology";
     }
-    description 
+    description
       "Augments topology link configuration";
     uses isis-termination-point-attributes;
   }
@@ -342,7 +342,7 @@ module ietf-l3-isis-topology {
         "Augmentation parameters apply only for networks with
         ISIS topology";
     }
-    description 
+    description
       "Augments topology termination point configuration";
     uses isis-termination-point-attributes;
   }
