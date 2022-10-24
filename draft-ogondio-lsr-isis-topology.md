@@ -5,7 +5,7 @@ docname: draft-ogondio-lsr-isis-topology-latest
 
 stand_alone: true
 ipr: trust200902
-area: "Routing Area"
+area: "Routing"
 wg: lsr
 category: std
 submissiontype: IETF  # also: "independent", "IAB", or "IRTF"
