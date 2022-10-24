@@ -33,15 +33,13 @@ author:
 
 --- abstract
 
-This document defines a YANG data model for representing an abstract view of the provider network topology that contains Intermediate System to intermediate System (ISIS)  information. This document augments the 'ietf-network' data model by adding ISIS concepts. 
+This document defines a YANG data model for representing an abstract view of the provider network topology that contains Intermediate System to intermediate System (ISIS)  information. This document augments the 'ietf-network' data model by adding ISIS concepts.
 
 The YANG data model defined in this document conforms to the Network Management Datastore Architecture (NMDA).
-
 
 --- middle
 
 # Introduction
-
 This document defines a YANG data model for representing an abstract view of the provider network topology that contains Intermediate System to intermediate System (ISIS)  information. The data model augments ietf-network module {{!RFC8345}} by adding ISIS information.
 
 Network operators perform regular what-if sceanarios analysis and capacity planning processes. Those what-if analysis and capacity planning processes require, among other information, a topological view (nodes, links, network interconnection) of the deployed network. Thanks to the definition of the ietf-network model in {{!RFC8345}} network operators can use an API to dynamically get the topological information from a network controller/ network management system.  On top of the work in {{!RFC8345}}, {{!RFC8346}} and {{!RFC8944}} extend the generic network and network topology data models with topology attributes that are specific to Layer 3 and Layer 2. However, there is not any model that exposes the IGP details. This information is required in the IP/MPLS planning process to properly assess the required network resources to meet the traffic demands in normal and failure scenarios. A whatif analysis requires knowledge on the different levels and areas.
@@ -52,7 +50,7 @@ This document explains the scope and purpose of the ISIS topology model and how 
 
 The YANG data model defined in this document conforms to the Network Management Datastore Architecture {{!RFC8342}}.
 
-## Terminology and Notations 
+## Terminology and Notations
 
 This document assumes that the reader is familiar with the contents of {{!RFC8345}}. The document uses terms from those documents.
 
@@ -103,7 +101,7 @@ There is a second set of parameters and augmentations are included at the termin
 
 # ISIS Topology Tree Diagram
 
-{{fig-ietf-l3-isis-topology-tree}} below shows the tree diagram of the YANG data model defined in module ietf-l3-isis-topology.yang ({{ietf-l3-isis-topology-yang}}). 
+{{fig-ietf-l3-isis-topology-tree}} below shows the tree diagram of the YANG data model defined in module ietf-l3-isis-topology.yang ({{ietf-l3-isis-topology-yang}}).
 
 ~~~~
 module: ietf-l3-isis-topology
