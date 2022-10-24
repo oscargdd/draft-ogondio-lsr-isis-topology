@@ -173,7 +173,7 @@ module ietf-l3-isis-topology {
   contact
     "WG Web:  <https://datatracker.ietf.org/wg/opsawg/>
     WG List:  <mailto:opsawg@ietf.org>
- 
+
     Editor:   Oscar Gonzalez de Dios
               <mailto:oscar.gonzalezdedios@telefonica.com>
     Editor:   Samier Barguil
@@ -197,7 +197,7 @@ module ietf-l3-isis-topology {
      This version of this YANG module is part of RFC XXXX
      (https://www.rfc-editor.org/info/rfcXXXX); see the RFC itself
      for full legal notices.";
- 
+
   revision 2022-09-21 {
     description
       "Initial version";
