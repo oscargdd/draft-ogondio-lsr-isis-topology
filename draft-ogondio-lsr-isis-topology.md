@@ -137,7 +137,7 @@ module ietf-l3-isis-topology {
   namespace
     "urn:ietf:params:xml:ns:yang:ietf-l3-isis-topology";
   prefix "isisnt";
- 
+
   import ietf-network {
     prefix "nw";
     reference
@@ -149,19 +149,19 @@ module ietf-l3-isis-topology {
     reference
       "RFC 8345: A YANG Data Model for Network Topologies";
   }
- 
+
   import ietf-l3-unicast-topology {
     prefix "l3t";
     reference
       "RFC 8346: A YANG Data Model for Layer 3 Topologies";
   }
- 
+
   import ietf-isis {
     prefix "ietf-isis";
     reference
       "RFC 6991: Common YANG Data Types";
   }
- 
+
   import ietf-inet-types {
     prefix "inet";
     reference
@@ -173,7 +173,7 @@ module ietf-l3-isis-topology {
   contact
     "WG Web:  <https://datatracker.ietf.org/wg/opsawg/>
     WG List:  <mailto:opsawg@ietf.org>
-    
+ 
     Editor:   Oscar Gonzalez de Dios
               <mailto:oscar.gonzalezdedios@telefonica.com>
     Editor:   Samier Barguil
