@@ -1,0 +1,7 @@
+<note title="Discussion Venues" removeInRFC="true">
+<t>Discussion of this document takes place on the
+    Link State Routing Working Group mailing list (lsr@ietf.org),
+    which is archived at <eref target="https://mailarchive.ietf.org/arch/browse/lsr/"/>.</t>
+<t>Source for this draft and an issue tracker can be found at
+    <eref target="https://github.com/oscargdd/draft-ogondio-lsr-isis-topology"/>.</t>
+</note>
