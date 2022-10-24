@@ -313,7 +313,7 @@ module ietf-l3-isis-topology {
       "Introduces new network type for L3 Unicast topology";
     uses isis-topology-type;
   }
-  
+
   augment "/nw:networks/nw:network/nw:node/l3t:l3-node-attributes" {
     when "/nw:networks/nw:network/nw:network-types/isisnt:isis-topology" {
       description
