@@ -106,7 +106,23 @@ There is a second set of parameters and augmentations are included at the termin
 {{fig-ietf-l3-isis-topology-tree}} below shows the tree diagram of the YANG data model defined in module ietf-l3-isis-topology.yang ({{ietf-l3-isis-topology-yang}}). 
 
 ~~~~
-{::include ../Yang/ietf-l3-isis-topology.tree}
+module: ietf-l3-isis-topology
+  augment /nw:networks/nw:network/nw:network-types:
+    +--rw isis-topology!
+  augment /nw:networks/nw:network/nw:node/l3t:l3-node-attributes:
+    +--rw isis-timer-attributes
+    |  +--rw lsp-lifetime?           string
+    |  +--rw lsp-refresh-interval?   string
+    +--rw isis-status
+       +--rw level?          ietf-isis:level
+       +--rw area-address*   ietf-isis:area-address
+       +--ro neighbours*     inet:ip-address
+  augment /nw:networks/nw:network/nw:node/nt:termination-point/l3t:l3-termination-point-attributes:
+    +--rw isis-termination-point-attributes
+       +--rw interface-type?   identityref
+       +--rw level?            ietf-isis:level
+       +--rw metric?           uint64
+       +--rw is-passive?       boolean
 ~~~~
 {: #fig-ietf-l3-isis-topology-tree title="ISIS Topology tree diagram"}
 
