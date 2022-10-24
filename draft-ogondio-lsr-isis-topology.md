@@ -1,6 +1,6 @@
 ---
-title: "A YANG Data Model for Intermediate System to intermediate System (ISIS) Topology"
-abbrev: "ISIS Topology YANG"
+title: A YANG Data Model for Intermediate System to intermediate System (ISIS) Topology
+abbrev: ISIS Topology YANG
 docname: draft-ogondio-lsr-isis-topology-latest
 
 stand_alone: true
@@ -115,7 +115,7 @@ module: ietf-l3-isis-topology
        +--rw level?          ietf-isis:level
        +--rw area-address*   ietf-isis:area-address
        +--ro neighbours*     inet:ip-address
-  augment /nw:networks/nw:network/nw:node/nt:termination-point/l3t:l3-termination-point-attributes:
+  augment .../nt:termination-point/l3t:l3-termination-point-attributes:
     +--rw isis-termination-point-attributes
        +--rw interface-type?   identityref
        +--rw level?            ietf-isis:level
@@ -336,7 +336,8 @@ module ietf-l3-isis-topology {
     uses isis-termination-point-attributes;
   }
 
-  augment "/nw:networks/nw:network/nw:node/nt:termination-point/l3t:l3-termination-point-attributes" {
+  augment "/nw:networks/nw:network/nw:node/nt:termination-point"+
+  "/l3t:l3-termination-point-attributes" {
     when "/nw:networks/nw:network/nw:network-types/isisnt:isis-topology" {
       description
         "Augmentation parameters apply only for networks with
