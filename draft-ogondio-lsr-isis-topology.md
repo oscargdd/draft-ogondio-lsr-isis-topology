@@ -1,7 +1,7 @@
 ---
 title: "A YANG Data Model for Intermediate System to intermediate System (ISIS) Topology"
 abbrev: "ISIS Topology YANG"
-docname: draft-todo-yourname-protocol-latest
+docname: draft-ogondio-lsr-isis-topology-latest
 
 stand_alone: true
 ipr: trust200902
