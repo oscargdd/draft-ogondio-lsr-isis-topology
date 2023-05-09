@@ -19,11 +19,12 @@ author:
     org: Telefonica
     email: oscar.gonzalezdedios@telefonica.com
   -
-    fullname: Samier Barguil
-    organization: Telefonica
-    email: samier.barguilgiraldo.ext@telefonica.com
+    fullname: Samier Barguil Giraldo
+    org: Nokia 
+    email: samier.barguil_giraldo@nokia.com
+
   -
-    name: Victor Lopez
+    fullname: Victor Lopez
     org: Nokia
     email: victor.lopez@nokia.com
 
@@ -33,18 +34,22 @@ author:
 
 --- abstract
 
-This document defines a YANG data model for representing an abstract view of the provider network topology that contains Intermediate System to intermediate System (ISIS)  information. This document augments the 'ietf-network' data model by adding ISIS concepts.
+This document defines a YANG data model for representing an abstract view of the provider network topology that contains Intermediate System to Intermediate System (ISIS)  information. This document augments the 'ietf-network' data model by adding ISIS concepts. 
 
 The YANG data model defined in this document conforms to the Network Management Datastore Architecture (NMDA).
+
 
 --- middle
 
 # Introduction
-This document defines a YANG data model for representing an abstract view of the provider network topology that contains Intermediate System to intermediate System (ISIS)  information. The data model augments ietf-network module {{!RFC8345}} by adding ISIS information.
 
-Network operators perform regular what-if sceanarios analysis and capacity planning processes. Those what-if analysis and capacity planning processes require, among other information, a topological view (nodes, links, network interconnection) of the deployed network. Thanks to the definition of the ietf-network model in {{!RFC8345}} network operators can use an API to dynamically get the topological information from a network controller/ network management system.  On top of the work in {{!RFC8345}}, {{!RFC8346}} and {{!RFC8944}} extend the generic network and network topology data models with topology attributes that are specific to Layer 3 and Layer 2. However, there is not any model that exposes the IGP details. This information is required in the IP/MPLS planning process to properly assess the required network resources to meet the traffic demands in normal and failure scenarios. A whatif analysis requires knowledge on the different levels and areas.
+Topology collection is a critical use case for the network operators because the network topology is an abstract representation of the physical nodes, links and network interconnections. Network  planning processes requires that the network resources are placed to meet the traffic demands requirements not just in terms of bandwidth or delay, but also for failure scenarios. Network operators does the network planning process as an offline process, which obtains the information not directly from the network, but from inventory or template information. The main reason for this process was that there was a lack of a dynamic and programmatic interfaces that can allow the planning tools to obtain such information.
 
-The main objective of this model is to represent the most relevant ISIS topology attributes.This document defines a YANG data model for representing, managing and controlling the ISIS topology. The data model augments ietf-network module {{!RFC8345}} by adding the ISIS information.
+Thanks to the definition of the ietf-network model in {{!RFC8345}} this situation has changed, because network operators can use an API with dynamic topological information. On top of the work in {{!RFC8345}}, {{!RFC8346}} and {{!RFC8944}} extends the generic network and network topology data models with topology attributes that are specific to Layer 3 and Layer 2. However, there is not any model that exposes Intermediate System to Intermediate System (ISIS) information. This information is required in the IP/MPLS planning process to properly assess the required network resources to meet the traffic demands in normal and failure scenarios. 
+
+The main objective of this model is to represent most relevant ISIS topology attributes.
+
+This document defines a YANG data model for representing, managing and controlling the ISIS topology. The data model augments ietf-network module {{!RFC8345}} by adding the ISIS information.
 
 This document explains the scope and purpose of the ISIS topology model and how the topology and service models fit together.
 
@@ -101,7 +106,7 @@ There is a second set of parameters and augmentations are included at the termin
 
 # ISIS Topology Tree Diagram
 
-{{fig-ietf-l3-isis-topology-tree}} below shows the tree diagram of the YANG data model defined in module ietf-l3-isis-topology.yang ({{ietf-l3-isis-topology-yang}}).
+{{fig-ietf-l3-isis-topology-tree}} below shows the tree diagram of the YANG data model defined in module ietf-l3-isis-topology.yang ({{ietf-l3-isis-topology-yang}}). 
 
 ~~~~
 module: ietf-l3-isis-topology
