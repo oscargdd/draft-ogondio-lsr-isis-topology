@@ -1,0 +1,230 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2023-07-25T01:07:09.613210+00:00",
+  "repo": "oscargdd/draft-ogondio-lsr-isis-topology",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOITBvXM5pHxqM",
+      "title": "Move to OPS WG?",
+      "url": "https://github.com/oscargdd/draft-ogondio-lsr-isis-topology/issues/1",
+      "state": "CLOSED",
+      "author": "oscargdd",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Agreement to change name and move to OPS WG",
+      "createdAt": "2023-06-19T14:14:46Z",
+      "updatedAt": "2023-07-03T13:40:06Z",
+      "closedAt": "2023-07-03T13:40:06Z",
+      "comments": [
+        {
+          "author": "oscargdd",
+          "authorAssociation": "OWNER",
+          "body": "Done, new repo created https://github.com/oscargdd/draft-ogondio-opsawg-isis-topology",
+          "createdAt": "2023-06-26T16:54:45Z",
+          "updatedAt": "2023-06-26T16:54:45Z"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "I_kwDOITBvXM5pHy5y",
+      "title": "objectives of the draft",
+      "url": "https://github.com/oscargdd/draft-ogondio-lsr-isis-topology/issues/2",
+      "state": "OPEN",
+      "author": "oscargdd",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "- \"The main objective of this model is to represent the most relevant ISIS topology attributes.This document defines a YANG data model for representing, managing and controlling the ISIS topology.\"\r\nWe have to agree on the objectives of this and future digital map-related drafts:\r\n    - representing, ok\r\n    - managing, what does it mean?\r\n    - controlling, it depends.\r\n",
+      "createdAt": "2023-06-19T14:17:41Z",
+      "updatedAt": "2023-06-19T14:35:21Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "oscargdd",
+          "authorAssociation": "OWNER",
+          "body": "a.p. on benoit to write a paragraph.\r\n\r\nHow to put the data back in the network is out of the scope (at least by the moment). ",
+          "createdAt": "2023-06-19T14:35:20Z",
+          "updatedAt": "2023-06-19T14:35:20Z"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "I_kwDOITBvXM5pH6TZ",
+      "title": "Paragraph on what-if scenarios",
+      "url": "https://github.com/oscargdd/draft-ogondio-lsr-isis-topology/issues/3",
+      "state": "OPEN",
+      "author": "oscargdd",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Proposal of Benoit:\r\n\r\nNetwork operators perform regular what-if sceanarios analysis and capacity planning processes. Those what-if analysis and capacity planning processes require, among other information, a topological view (nodes, links, network interconnection) of the deployed network.",
+      "createdAt": "2023-06-19T14:36:24Z",
+      "updatedAt": "2023-06-26T17:14:40Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "oscargdd",
+          "authorAssociation": "OWNER",
+          "body": "Pablo suggest to mention about the simulation use case. ",
+          "createdAt": "2023-06-19T14:38:28Z",
+          "updatedAt": "2023-06-19T14:38:28Z"
+        },
+        {
+          "author": "oscargdd",
+          "authorAssociation": "OWNER",
+          "body": "Benoit's proposal added in the introduction of the draft. ",
+          "createdAt": "2023-06-26T17:14:39Z",
+          "updatedAt": "2023-06-26T17:14:39Z"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "I_kwDOITBvXM5pH-fe",
+      "title": "Use cases ",
+      "url": "https://github.com/oscargdd/draft-ogondio-lsr-isis-topology/issues/4",
+      "state": "OPEN",
+      "author": "oscargdd",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Use cases to include:\r\n\r\n* Capacity Planning \r\n* Simulation / whatif scenarios\r\n\r\nConcepts / technology:\r\n\r\n* DIgital map \r\n* Digital twin ",
+      "createdAt": "2023-06-19T14:47:21Z",
+      "updatedAt": "2023-06-19T14:47:59Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 5,
+      "id": "I_kwDOITBvXM5pH_-_",
+      "title": "Discussion of closed loop",
+      "url": "https://github.com/oscargdd/draft-ogondio-lsr-isis-topology/issues/5",
+      "state": "OPEN",
+      "author": "oscargdd",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-06-19T14:51:10Z",
+      "updatedAt": "2023-06-19T14:51:10Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 6,
+      "id": "I_kwDOITBvXM5pIAQk",
+      "title": "Area as part of the network? ",
+      "url": "https://github.com/oscargdd/draft-ogondio-lsr-isis-topology/issues/6",
+      "state": "OPEN",
+      "author": "oscargdd",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-06-19T14:51:45Z",
+      "updatedAt": "2023-06-19T14:51:45Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOITBvXM5pIAbN",
+      "title": "Alignment with RFC 9130",
+      "url": "https://github.com/oscargdd/draft-ogondio-lsr-isis-topology/issues/7",
+      "state": "OPEN",
+      "author": "DanieleIETF",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "-\tWe need to do a better alignment with RFC 9130 (YANG data model for IS-IS), mostly when it comes to terminology. This is a general comment I received from the people that quickly reviewed it. I\u2019m not familiar with RFC9130 so here is a first round of comments.\r\no\tFrom a quick scan RFC 9130 has the protocol level module (isis) with a part covering the interfaces, while we split the parameters into node level and termination point level. Maybe the comment is referring to the mapping between these things? Since we\u2019re augmenting the network model we off course need to speak about node and termination point, but maybe we can add a mapping? The termination point equals the interface in IS IS right? \r\no\tTimer attributes: we have LSP lifetime and LSP refresh interval. In RFC9130 LSP lifetime seems to be consistent, while the LSP refresh interval seems to be simply lsp-refresh \r\n\r\n  feature lsp-refresh {\r\n       description\r\n         \"Configuration of the LSP refresh interval.\";\r\n     }\r\n\r\no\tWe use level, but if I correctly understood it maps against \u201clevel-type\u201d in RFC 9130?\r\no\tNeighbours: we use IP address but in RFC9130 they seem to be identified via system ID\r\n \r\no\tRegarding the interfaces (isis-termination-point-attributes)we have the following mapping: \r\n\uf0a7\t       +--rw interface-type?   Identityref     \uf0e0 OK\r\n\uf0a7\t       +--rw level?            ietf-isis:level    \uf0e0 this should be level-type?\r\n\uf0a7\t       +--rw metric?           uint64 \uf0e0 this should have 3 value: value, level-1 and level-2 rigth?\r\n\uf0a7\t       +--rw is-passive?       Boolean \uf0e0 just passive, no is.\r\n",
+      "createdAt": "2023-06-19T14:52:14Z",
+      "updatedAt": "2023-06-19T14:52:14Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 8,
+      "id": "I_kwDOITBvXM5pIApq",
+      "title": "parameters at interface level",
+      "url": "https://github.com/oscargdd/draft-ogondio-lsr-isis-topology/issues/8",
+      "state": "OPEN",
+      "author": "DanieleIETF",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "-\tAt interface level wouldn\u2019t the following parameters be useful? Enabled, tag, tag64, adjacencies ?",
+      "createdAt": "2023-06-19T14:52:51Z",
+      "updatedAt": "2023-06-19T14:52:51Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 9,
+      "id": "I_kwDOITBvXM5pIAzw",
+      "title": "Protocol and interface level parameters",
+      "url": "https://github.com/oscargdd/draft-ogondio-lsr-isis-topology/issues/9",
+      "state": "OPEN",
+      "author": "DanieleIETF",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "-\tQuestion: why ISIS has LSP parameters both as protocol and interface level? I guess because there is a global protocol level that can be overridden per interface. Shouldn\u2019t we have the same between node and termination point level?",
+      "createdAt": "2023-06-19T14:53:16Z",
+      "updatedAt": "2023-06-19T14:53:16Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": []
+}
