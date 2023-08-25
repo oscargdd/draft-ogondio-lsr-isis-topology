@@ -25,7 +25,7 @@ module ietf-l3-isis-topology {
   import ietf-isis {
     prefix "ietf-isis";
     reference
-      "RFC 6991: Common YANG Data Types";
+      "RFC 9130: YANG Data Model for the IS-IS Protocols";
   }
  
   import ietf-inet-types {
@@ -87,22 +87,7 @@ module ietf-l3-isis-topology {
     container isis-timer-attributes {
       description
         "Contains node timer attributes";
-      leaf lsp-lifetime {
-        type uint16 {
-           range "1..65535";
-         }
-        units "seconds";
-        description
-          "Lifetime of the router's LSPs in seconds.";
-      }
-      leaf lsp-refresh-interval {
-        type uint16 {
-           range "1..65535";
-         }
-        units "seconds";
-        description
-          "Refresh interval of the router's LSPs in seconds.";
-      }
+      uses ietf-isis:lsp-parameters;
     }
     container isis-status {
       description
