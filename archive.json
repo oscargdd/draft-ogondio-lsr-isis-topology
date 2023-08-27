@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-08-24T00:45:27.321362+00:00",
+  "timestamp": "2023-08-27T00:49:35.332310+00:00",
   "repo": "oscargdd/draft-ogondio-lsr-isis-topology",
   "labels": [
     {
@@ -226,5 +226,32 @@
       "comments": []
     }
   ],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 10,
+      "id": "PR_kwDOITBvXM5YxfT_",
+      "title": "align with ISIS RFC",
+      "url": "https://github.com/oscargdd/draft-ogondio-lsr-isis-topology/pull/10",
+      "state": "OPEN",
+      "author": "sbarguil",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-08-25T08:55:22Z",
+      "updatedAt": "2023-08-25T08:55:22Z",
+      "baseRepository": "oscargdd/draft-ogondio-lsr-isis-topology",
+      "baseRefName": "main",
+      "baseRefOid": "0fc34372d58bfe053d300158cb02c4beffba82aa",
+      "headRepository": "oscargdd/draft-ogondio-lsr-isis-topology",
+      "headRefName": "Allign-RFC9130",
+      "headRefOid": "c2fb35b6b1030226d1c2c80c381be93335367d76",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
 }
